@@ -1,3 +1,5 @@
+/* eslint-disable quotes */
+// eslint-disable-next-line semi
 "use strict";
 const { Sequelize, Model } = require("sequelize");
 module.exports = (sequelize, DataTypes) => {
@@ -40,7 +42,7 @@ module.exports = (sequelize, DataTypes) => {
         console.log(
           `${todo.id}. [${todo.completed ? "x" : " "}] ${todo.title} ${
             todo.dueDate
-          }`
+          }`,
         );
       });
       console.log("\n");
@@ -49,7 +51,7 @@ module.exports = (sequelize, DataTypes) => {
         console.log(
           `${todo.id}. [${todo.completed ? "x" : " "}] ${todo.title} ${
             todo.dueDate
-          }`
+          }`,
         );
       });
       console.log("\n");
@@ -58,7 +60,7 @@ module.exports = (sequelize, DataTypes) => {
         console.log(
           `${todo.id}. [${todo.completed ? "x" : " "}] ${todo.title} ${
             todo.dueDate
-          }`
+          }`,
         );
       });
     }
@@ -117,7 +119,7 @@ module.exports = (sequelize, DataTypes) => {
     {
       sequelize,
       modelName: "Todo",
-    }
+    },
   );
   return Todo;
 };

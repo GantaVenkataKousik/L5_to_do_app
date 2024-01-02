@@ -41,7 +41,7 @@ describe("Todolist Test Suite", () => {
   });
 
   test("Should mark todo as complete", async () => {
-    await db.Todo.marksAsComplete(1);
+    await db.Todo.markComplete(1);
     const completedTodo = await db.Todo.findByPk(1);
     expect(completedTodo.completed).toBe(true);
   });
