@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.35.2",
+    "sequelize-cli": "^6.6.2"
+  },
+  "name": "l5",
+  "description": "��#\u0000 \u0000L\u00005\u0000_\u0000t\u0000o\u0000_\u0000d\u0000o\u0000_\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GantaVenkataKousik/L5_to_do_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GantaVenkataKousik/L5_to_do_app/issues"
+  },
+  "homepage": "https://github.com/GantaVenkataKousik/L5_to_do_app#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
